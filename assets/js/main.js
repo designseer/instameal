@@ -131,7 +131,7 @@ $(function () {
     //===== testimonial Active slick slider
     $('.testimonial-active').slick({
         dots: false,
-        infinite: false,
+        infinite: true,
         autoplay: true,
         autoplaySpeed: 3000,
         arrows: true,
@@ -271,6 +271,25 @@ $(function () {
     //         scrollTop: 0,
     //     }, 1500);
     // });
-
+    var wheel, scrolling;
+var $carousel = $('#carousel');
+$carousel.on('init', () => {
+	wheel = new WheelIndicator({
+		elem: $carousel[0],
+		callback: wheelHandler,
+	});
+})
+.on('beforeChange', () => {
+	scrolling = true;
+})
+.on('afterChange', () => {
+	scrolling = false;
+})
+function wheelHandler(e) {
+	if (!scrolling) {
+		console.log('Mouse wheel scroll:', e.direction);
+		$carousel.slick(e.direction === 'up' ? 'slickPrev' : 'slickNext');
+	}
+}
 
 });
