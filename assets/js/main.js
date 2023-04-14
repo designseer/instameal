@@ -119,7 +119,7 @@ $(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1.1,
+                    slidesToShow: 1.05,
                     arrows: false,
                 }
             }
@@ -156,7 +156,7 @@ $(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 0.95,
+                    slidesToShow: 1,
                     arrows: false,
                 }
             }
