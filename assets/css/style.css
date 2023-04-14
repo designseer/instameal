@@ -1240,10 +1240,21 @@ p {
 	.features-area {
 		margin-top: 30px
 	}
+	.features-area .video-iframe iframe {
+		height: 250px;
+	}
 }
 @media (max-width: 992px) {
 	.features-area {
 		padding: 0 15px 70px 15px
+	}
+	.features-area .video-iframe iframe {
+		height: 400px;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.features-area .video-iframe iframe {
+		height: 500px;
 	}
 }
 .features-area::before {
@@ -1493,6 +1504,9 @@ p {
 @media (max-width: 992px) {
 	.faq-area {
 		padding: 50px 0 50px 0
+	}
+	.capture-item .capture-content {
+		padding: 40px 30px;
 	}
 }
 .faq-area::before {
