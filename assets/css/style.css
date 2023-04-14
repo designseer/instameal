@@ -2826,7 +2826,7 @@ p {
 }
 @media (max-width: 992px) {
 	.footer-about p {
-		padding-right: 30px
+		padding-right: 10px
 	}
 	.footer-about.qr img {
 		width: 150px;
