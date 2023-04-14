@@ -176,7 +176,7 @@ $(function () {
         nextArrow: $('.screenshot-arrows .next'),
         speed: 1500,
         slidesToShow: 5,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         responsive: [
             {
                 breakpoint: 1201,
