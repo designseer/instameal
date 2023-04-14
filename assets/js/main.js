@@ -255,7 +255,7 @@ $(function () {
 
     // Show or hide the sticky footer button
     $(window).on('scroll', function (event) {
-        if ($(this).scrollTop() > 600 && $(this).scrollTop() <= 5000) {
+        if ($(this).scrollTop() > 600 && $(this).scrollTop() <= 5500) {
             $('.back-to-top').fadeIn(200);
           } else {
             $('.back-to-top').fadeOut(200);
