@@ -2938,6 +2938,9 @@ p {
 	.mt-mobile-60 {
 		margin-top: 60px;
 	}
+	.mt-mobile-invert-40 {
+		margin-top: -40px;
+	}
 }
 .footer-list.footer-newsleatter {
 	margin-left: -30px
