@@ -1960,7 +1960,7 @@ p {
 		padding-top: 50px
 	}
     .testimonial-item {
-        min-height: 450px;
+        min-height: 550px;
 	}
 }
 @media (min-width: 992px) {
