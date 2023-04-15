@@ -95,7 +95,7 @@ $(function () {
     $('.capture-active').slick({
         dots: false,
         infinite: false,
-        autoplay: true,
+        autoplay: true,    
         autoplaySpeed: 3000,
         arrows: true,
         prevArrow: '<span class="prev"><i class="far fa-arrow-circle-left"></i></span>',
@@ -170,14 +170,15 @@ $(function () {
     $('.screenshot-active').slick({
         dots: false,
         infinite: true,
-        autoplay: true,
+        autoplay: true,        
+        swipeToSlide: true,
         autoplaySpeed: 3000,
         arrows: true,
         prevArrow: $('.screenshot-arrows .prev'),
         nextArrow: $('.screenshot-arrows .next'),
         speed: 1500,
         slidesToShow: 5,
-        slidesToScroll: 3,
+        slidesToScroll: 2,
         responsive: [
             {
                 breakpoint: 1201,

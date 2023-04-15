@@ -1257,6 +1257,13 @@ p {
 	.features-area .video-iframe iframe {
 		height: 250px;
 	}
+	.features-area .container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.features-area .col-lg-12 {
+		padding-left: 0;
+	}
 }
 @media (max-width: 992px) {
 	.features-area {
