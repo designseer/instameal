@@ -102,7 +102,7 @@ $(function () {
         nextArrow: '<span class="next"><i class="far fa-arrow-circle-right"></i></i></span>',
         speed: 1500,
         slidesToShow: 2.8,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         responsive: [
             {
                 breakpoint: 1201,
@@ -121,6 +121,7 @@ $(function () {
                 settings: {
                     slidesToShow: 1.05,
                     arrows: false,
+                    slidesToScroll: 1,
                 }
             }
         ]
@@ -197,6 +198,7 @@ $(function () {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '100px',
+                    slidesToScroll: 1,
                 }
             }            
         ]
